@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Nguyễn Văn A",
+      "username": "vana",
+      "password": "123456"
+    },
+    {
+      "id": "u2",
+      "name": "Trần Thị B",
+      "username": "tranb",
+      "password": "abcdef"
+    },
+    {
+      "id": "06de",
+      "name": "Phạm Quốc Trường",
+      "username": "truong1699",
+      "password": "16061999"
+    }
+  ],
+  "posts": [
+    {
+      "id": "b1",
+      "title": "Lập trình React từ A đến Z",
+      "content": "React là thư viện JavaScript phổ biến để xây dựng giao diện người dùng...",
+      "authorId": "u1",
+      "visibility": "public",
+      "createdAt": "2024-07-20T10:00:00.000Z",
+      "comments": [
+        {
+          "id": "c1",
+          "userId": "u2",
+          "content": "Bài viết rất hữu ích, cảm ơn bạn!",
+          "createdAt": "2024-07-21T08:00:00.000Z"
+        },
+        {
+          "id": "c2",
+          "userId": "u1",
+          "content": "Cảm ơn bạn đã góp ý!",
+          "createdAt": "2024-07-21T09:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "title": "Kỹ thuật viết API hiệu quả với Node.js",
+      "content": "Trong bài này, chúng ta sẽ tìm hiểu cách viết API RESTful hiệu quả...",
+      "authorId": "u2",
+      "visibility": "private",
+      "createdAt": "2024-07-22T14:30:00.000Z",
+      "comments": []
+    },
+    {
+      "id": "e6c9",
+      "title": "123",
+      "content": "11123",
+      "visibility": "public",
+      "authorId": "06de",
+      "createdAt": "2025-08-04T15:27:03.003Z",
+      "comments": [
+        {
+          "id": 1754486713876,
+          "userId": "06de",
+          "content": "fsdfsdf",
+          "createdAt": "8/6/2025, 8:25:13 PM"
+        }
+      ]
+    },
+    {
+      "id": "ea6e",
+      "title": "2222",
+      "content": "3333",
+      "visibility": "private",
+      "authorId": "06de",
+      "createdAt": "2025-08-05T13:34:11.057Z",
+      "comments": []
+    },
+    {
+      "id": "9e12",
+      "title": "112",
+      "content": "bài công khai",
+      "visibility": "public",
+      "authorId": "06de",
+      "createdAt": "2025-08-06T13:28:28.764Z",
+      "comments": [
+        {
+          "id": 1754486933252,
+          "userId": "06de",
+          "content": "bài hay\n",
+          "createdAt": "8/6/2025, 8:28:53 PM"
+        }
+      ]
+    }
+  ]
+}
